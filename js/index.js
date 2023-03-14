@@ -1,6 +1,4 @@
-console.log('Учим'); 
 
-console.log('JS');
 const name = "Елена";
 const lastName = "Очирова";
 const year = 2023;
