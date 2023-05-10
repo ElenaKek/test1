@@ -1,32 +1,24 @@
 let pizza = {
     name: 'pizza',
     price: 400,
-    ingredient1: 'sausage',
-    ingredient2: 'tomato',
-    ingredient3: 'dough',
+    ingredients: ['sausage','tomato','dough'],
     form: 'circle',
     cookingTime: 30
 };
 
 let burger = {
     price: 250,
-    ingredient1: 'meat',
-    ingredient2: 'bun',
-    ingredient3: 'onion',
+    ingredients: ['meat', 'bun', 'onion'],
     form: 'circle',
     cookingTime: 15
 };
 
 let frenchFries = {
     price: 150,
-    ingredient1: 'potato',
-    ingredient2: 'salt',
-    ingredient3: 'oil',
+    ingredients: ['potato', 'salt', 'oil'],
     form: 'parallelepiped',
     cookingTime: 10
 };
-
-let adsa = frenchFries;
 
 let myFavoritFood = [pizza, burger, frenchFries];
 
@@ -38,9 +30,9 @@ console.log("delete frenchFries in arrey: ",myFavoritFood);
 
 myFavoritFood.unshift(frenchFries);
 
-delete frenchFries.ingredient1;
+delete frenchFries.ingredients[0];
 
-console.log("delete ingredient1 in object: ",myFavoritFood);
+console.log("delete ingredient in object: ",myFavoritFood);
 
 let amountOfProceeds = 0;
 
