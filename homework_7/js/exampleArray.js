@@ -37,8 +37,8 @@ console.log("delete ingredient in object: ",myFavoritFood);
 let amountOfProceeds = 0;
 
 myFavoritFood.forEach ((obj) => {
-    console.log("Время приготовления: ", amountOfProceeds, "мин."),
-    console.log("Цена: ", obj.price, "руб."),
+    console.log("Время приготовления: ", amountOfProceeds, "мин.");
+    console.log("Цена: ", obj.price, "руб.");
     amountOfProceeds += obj.price
 });
 console.log("Cумма выручки: ",amountOfProceeds);
