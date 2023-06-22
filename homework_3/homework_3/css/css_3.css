@@ -1,0 +1,16 @@
+.size {
+    font-size: medium;}
+
+.family {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.style {font-style: italic;}
+
+.weight {font-weight: 300;}
+
+.color {color: pink;}
+
+.aligh {text-align: center;}
+
+.decoration {text-decoration: line-through;}
+
+.shadow {text-shadow: 1px 1px 1px #000;}
